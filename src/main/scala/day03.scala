@@ -22,9 +22,11 @@ def findOutputJoltage(bank: List[Int], length: Int): String =
     return output
 
 def part_1(joltages: Seq[List[Int]]): Int =
-    var outputJoltages: Seq[Int] = for (bank <- joltages) yield findOutputJoltage(bank, 2).toInt
+    var outputJoltages: Seq[Int] =
+        for (bank <- joltages) yield findOutputJoltage(bank, 2).toInt
     return outputJoltages.sum
 
 def part_2(joltages: Seq[List[Int]]): Long =
-    var outputJoltages: Seq[Long] = for (bank <- joltages) yield findOutputJoltage(bank, 12).toLong
+    var outputJoltages: Seq[Long] =
+        for (bank <- joltages) yield findOutputJoltage(bank, 12).toLong
     return outputJoltages.sum
