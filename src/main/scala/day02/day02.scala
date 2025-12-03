@@ -1,7 +1,5 @@
 package day02
 
-import scala.util.boundary
-import scala.util.boundary.break
 import scala.util.matching.Regex
 import util.Input
 
