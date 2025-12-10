@@ -1,6 +1,5 @@
 package day06
 
-import scala.util.matching.Regex
 import util.Input
 
 @main def main(): Unit =
