@@ -1,8 +1,6 @@
 package day09
 
 import scala.math.abs
-import scala.math.min
-import scala.math.signum
 import util.Input
 
 @main def main(): Unit =
